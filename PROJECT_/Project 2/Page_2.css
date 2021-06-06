@@ -1,0 +1,309 @@
+:root{
+    --primary-font-color:rgba(10, 10, 2, 0.2);
+    --ff-primary:'Pattaya', sans-serif;
+    --ff-asccent:'Playfair Display',serif;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--ff-primary);
+    /* color: #3DCFD3; */
+  
+}
+
+
+h1{
+    color: var(--primary_font_color);
+}
+
+.head{
+    height: 10rem;
+    margin: 10px 10px 10px 10px ;
+    background-color:#161616 ;
+    color: rgb(242, 245, 247);
+}
+
+.shirt{
+    border: solid rgb(0, 0, 0);
+    display: flex;
+    position: relative;
+     flex-direction: row;
+     justify-content: center;
+     background-color: antiquewhite;
+     background-color:#161616 ;
+    
+}
+.div_collar{
+    
+    margin-left: 30px;
+	float: left;
+    display: flexbox;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+	height: 100px;
+	width: 300px;
+	background: #F5F5F5;
+	overflow-x: scroll;
+	margin-bottom: 25px;
+    
+}
+div button{
+    color: #b96464;
+    
+}
+
+h2{
+    color: #F5F5F5;
+}
+
+#style-11::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-11::-webkit-scrollbar-thumb
+{
+	background-color:#160e0ee3;
+	border-radius: 10px;
+	background-image: -webkit-linear-gradient(0deg,
+	                                          rgba(255, 255, 255, 0.5) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(255, 255, 255, 0.5) 50%,
+											  rgba(255, 255, 255, 0.5) 75%,
+											  transparent 75%,
+											  transparent)
+}
+
+
+
+
+
+.set_proper{
+    /* position: absolute;
+    height: 18rem;
+    margin: 2px;
+    object-fit: cover;
+    
+    
+    margin-left: 0%; */
+    position: absolute;
+    height: 28rem;
+    margin: -10px 70px -26px 161%;
+    object-fit: cover;
+    z-index: 5;
+}
+.container{
+    position: relative;
+    height: '200px';
+       
+    width:min(0%,70.5rem) 
+}
+.list_of_button{
+    margin-left: 50%;
+}
+
+.All_images{
+    background-color: brown;
+    height: 500px;
+    
+    display: block;
+}
+.hand{
+    border: solid gray;
+    background-color: blueviolet;
+    height: 6rem;
+   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    justify-content: space-evenly;
+  
+}
+
+
+.ml12 {
+    font-weight: 200;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+  }
+  
+  .ml12 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+
+
+button>img{
+    height: 30px;
+    width: 30px;
+   display: block;
+   justify-content: center;
+   align-items: center;  
+}
+button>.set_hand_button_row
+{
+
+
+  background-color: blue;
+ scroll-behavior: smooth;
+ height: 25px;
+ width: 25px;
+ display: flexbox;
+}
+
+
+
+button#print_wali{
+    background: url('../responsive-FronPage/images/printter.png');  
+
+    background-size: cover;
+    height: 10vh;
+     width: 6vw;
+     color: #161616;
+     
+     border-radius: 20px;
+    
+}
+
+ 
+div.sticky {
+    
+    position: fixed;
+    z-index: 4;
+    font-size: 20px;
+    bottom:3%;
+    right: 10%;
+
+  }
+
+#mob_btn_show{
+    display: none;
+}
+@media(max-width:40em ){
+    *{
+        font-family: 'Ubuntu';
+         color:"black";
+        
+    }
+    .shirt{
+        display: block;
+        flex-direction: row;
+        
+
+    }
+    .All_images{
+        background-color: black;
+       
+    }
+    .list_of_button{
+        margin: 0% 0% 0% 0%;
+        display: flex;
+        align-items: flex-start;
+        align-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+    }
+    
+    .set_proper{
+        position: absolute;
+        height: 18rem;
+        margin: 2px;
+        object-fit: cover;
+        margin-left: 0%;
+        
+        
+    }
+    .hand{
+        display: flex;
+        background-color: #3366FF;
+        
+
+    }
+    .collar_visible{
+        display: none;
+    }  
+    .hand_visible{
+        display: none;
+    }
+    .cuff_visible
+   {
+       display: none;
+   }
+   .Body_visible{
+       display: none;
+   }
+   
+   .div_collar{
+    
+    margin-left: 30px;
+	float: left;
+    display: flexbox;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+	height: 100px;
+	width: 100%;
+	background: #F5F5F5;
+	overflow-x: scroll;
+	margin-bottom: 25px;
+    
+    
+}
+
+
+
+
+
+
+#mob_btn_show{
+    display: flex;
+    color: #161616;
+    
+}
+
+#mob_btn_show  > button{
+    color: #3366FF;
+    background-color: #161616;
+}
+#mob_btn_show  > button:hover{
+    background-color: darkorange;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

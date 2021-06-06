@@ -1,0 +1,11 @@
+body{
+    background: rgb(14, 13, 13);
+    color: antiquewhite;
+}
+#bgimg>#one
+{
+margin-top: 100px;
+max-width: 100% ;
+max-height: 20%;
+}
+

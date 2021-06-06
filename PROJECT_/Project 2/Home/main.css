@@ -1,0 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#photo {
+    width: 500px;
+    height: 500px;
+    align-items: center;
+}
+
+#b1 {
+    position: 300px 400px;
+}
+
+#bar {
+    height: 500px 400px;
+}

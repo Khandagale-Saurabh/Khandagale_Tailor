@@ -1,0 +1,73 @@
+
+.main_container
+{
+
+}
+.img-container {
+    
+    border: 5px solid black;
+    width: 450;
+    height: 450px;
+   max-width: 100%; 
+   overflow-x: auto;
+   position: relative;
+  
+    
+}
+div#cd{
+   border: 5px solid black;
+   
+   width: 450;
+   height: 400px;
+   max-width: 100%;
+   overflow-x: auto;
+  
+}
+
+.div_collar
+{
+ background-color: black;
+ overflow-x: auto;
+ overflow-y: auto;
+ height: 130px;
+ position: relative;
+}
+
+#dd {
+    z-index: 1;
+  
+}
+
+#cuff {
+    position: static;
+    z-index: 1;
+}
+
+#one {
+    position: absolute;
+    z-index: 1;
+}
+
+#two {
+    position: absolute;
+}
+
+#three {
+    position: absolute;
+}
+
+#four {
+    position: absolute;
+}
+
+#five {
+    position: absolute;
+}
+
+#six {
+    position: absolute;
+}
+#seven{
+    position: absolute;
+    z-index: 1;
+}

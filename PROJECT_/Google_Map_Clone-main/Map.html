@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+<script src="map_script.js" defer></script> 
+
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css" type="text/css">
+
+
+
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+      #map{
+          height: 78vh;
+          width: 100vw;
+      }
+      .mapboxgl-accessibility-marker {
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  appearance: none;
+  border-radius: 0;
+  border: none;
+  position: fixed;
+}
+.mapboxgl-popup {
+  max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.marker {
+  background-image: url('mapbox-icon.png');
+  background-size: cover;
+  width: 30vw;
+  height: 100vh;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.mapboxgl-accessibility-marker:focus {
+  border: 2px solid black;
+}
+
+#floating-panel {
+  position: absolute;
+  top: 10px;
+  left: 25%;
+  z-index: 5;
+  background-color: rgb(14, 6, 6);
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: "Roboto", "sans-serif";
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+
+
+#instructions {
+  position: absolute;
+  margin: 20px;
+  width: 25%;
+  top: 0;
+  bottom: 20%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  overflow-y: scroll;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  line-height: 2em;
+}
+*{
+  font-family: 'Baloo Tammudu 2', cursive;
+
+}
+      </style>
+
+
+
+</head>
+
+<body>
+  
+    <div id='map'>
+
+      <div id="instructions"></div>
+
+    </div>
+
+
+<div>
+  Location Of Our Shop
+   Manewada Road Nagpur
+   <br>
+   Choose a starting place:=your Location 
+   <br>
+   Choose a Destination ::= Ullhas Nagar Manewada road, Nagpur:440027 
+  </div>
+
+
+
+    
+
+    <!-- <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9Tt979N2VwFy7em2lGkqwAlqIN5ME59M&callback=initMap&libraries=&v=weekly"
+    async
+  ></script> -->
+  <script>
+
+    </script>
+</body>
+</html>
